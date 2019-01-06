@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 import MaterialIcon from 'material-icons-react';
-import { Typography, Tooltip } from '@material-ui/core';
+import { Typography } from '@material-ui/core';
 import { CSSTransitionGroup } from 'react-transition-group';
 import './Item.css';
 

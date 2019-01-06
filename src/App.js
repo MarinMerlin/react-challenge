@@ -10,7 +10,7 @@ import {
 import './App.css';
 import CarItem from './CarouselItem.js'
 
-const url = "http://54.191.197.111/users/6"
+const url = "http://54.191.197.111/users/66"
 
 //The four panels of the carousel with the index of the first element in that panel
 const carouselItems = [{id:1,startPos:0},{id:2,startPos:4},{id:3,startPos:8},{id:4,startPos:12}];
