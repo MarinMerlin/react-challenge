@@ -1,0 +1,68 @@
+.carousel-appear {
+opacity: 0.01;
+}
+
+.carousel-appear.carousel-appear-active {
+opacity: 1;
+transition: opacity .5s ease-in;
+}
+.carousel-enter {
+opacity: 0.01;
+}
+
+.carousel-enter.carousel-enter-active {
+opacity: 1;
+transition: opacity 700ms ease-in;
+}
+
+.carousel-leave {
+opacity: 1;
+}
+
+.carousel-leave.carousel-leave-active {
+opacity: 0.01;
+transition: opacity 500ms ease-in;
+}
+
+.container {
+position: relative;
+width: 50%;
+}
+
+.image {
+opacity: 1;
+display: block;
+width: 100%;
+height: auto;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+
+.middle {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.container:hover .image {
+opacity: 0.3;
+}
+
+.container:hover .middle {
+opacity: 1;
+}
+
+.text {
+color: white;
+font-size: 10px;
+}
+.textLarge {
+color: white;
+font-size: 13px;
+}
+    

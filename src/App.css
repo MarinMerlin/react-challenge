@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: #1b231e;
+  color: #f7f6f2;
+  height: 100vh;
+  padding-top:15vh;
+}
+
+.App-text {
+  color: #f7f6f2
+}
+
