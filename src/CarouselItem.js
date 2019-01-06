@@ -12,7 +12,7 @@ const CarouselItem = ({data, rate}) => {
         justify="center"
         alignItems="center">
             {data.map( (item) => (
-            <Grid item key={item.id} style={{margin:10, marginBottom:50}}>
+            <Grid item key={item.id} style={{marginBottom:50}}>
                 <Item item={item} rate={rate}/>
             </Grid>))}
         </Grid>

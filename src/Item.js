@@ -19,7 +19,7 @@ const Item = ({item,rate}) => {
             {/* When a user mouseovers the image it we reduce the opacity of the image to 30%
             and increase the text to 100% */}
             <div class="container">
-                <img class="image" key={item.id} src={item.image} alt="" style={{width:224, height:283, boxShadow:"10px 5px 15px 5px black", margin:10}}/>   
+                <img class="image" key={item.id} src={item.image} alt="" style={{width:224, height:283, boxShadow:"10px 5px 15px 5px black", marginBottom:15}}/>   
                 <div class="middle">
                     <div class="text">{item.text}..</div>
                     <div class="textLarge">{item.definingInfo}</div>
